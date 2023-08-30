@@ -17,17 +17,23 @@
           <h2>Formulário</h2>
         </div>
         <div class="row">
+            
+ <form action="https://api.staticforms.xyz/submit" method="post">
+        
+        <input type="hidden" name="accessKey" required value="11228120-8ce4-4079-bac4-22c598e56781">
+        <input type="hidden" name="redirectTo" required value="portifolioresponsivo-n1.netlify.app/">
+
           <h3>Nome</h3>
-          <input class="input1" type="text" required="" placeholder="Digite seu nome..">
+          <input class="input1" name="name" id="name" type="text" required placeholder="Digite seu nome..">
         </div>
         <div class="row">
           <h3>Email</h3>
-          <input class="input2" type="email" required="" placeholder="Seu e-mail por favor..">
+          <input class="input2" name="email" id="email" type="email" required placeholder="Seu e-mail por favor..">
         </div>
         <div class="row">
           <h3>Mensagem</h3>
-          <textarea class="input3" name="" required="" placeholder="Se possível, poderia adiantar a sua ecessidade.." cols="30" rows="10"></textarea>
-          <button onclick="cocorico()" class="botao">Enviar</button>
+          <textarea class="input3" name="message" id="message" required placeholder="Se possível, poderia adiantar a  sua ecessidade.." cols="30" rows="10"></textarea>
+          <input type="submit" value="Submit" class="botao">
         </div>
       </div>
     </div>
